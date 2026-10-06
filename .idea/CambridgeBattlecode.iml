@@ -5,6 +5,7 @@
       <sourceFolder url="file://$MODULE_DIR$/bots/nexus" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bots/rc" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/bots/starter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bots/final" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/.venv-3.13" />
     </content>

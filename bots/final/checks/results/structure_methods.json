@@ -1,0 +1,1088 @@
+[
+  {
+    "role": "builder_bot",
+    "method": "__init__",
+    "target": "finalbot/economy/builder/bot.py",
+    "ast_sha256": "b4253a2fccefa101ee7dc86800709de2edcc22804dfea1c2ed8ae709f29537a1"
+  },
+  {
+    "role": "builder_bot",
+    "method": "run",
+    "target": "finalbot/economy/builder/bot.py",
+    "ast_sha256": "aafc0a6a02e5604d96836336d9289fb358d4654213e36a5c53c0b61d2c9bf487"
+  },
+  {
+    "role": "builder_bot",
+    "method": "run_turn",
+    "target": "finalbot/economy/builder/bot.py",
+    "ast_sha256": "93e9cef4f2ec6c171b0e1c4949267b742089480056b2578a6087d470528b1eee"
+  },
+  {
+    "role": "builder_bot",
+    "method": "observe_tiles",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "2760ca047391844b94178ef40b66463bbd9397b9ea46d50c7b5600e83fbff019"
+  },
+  {
+    "role": "builder_bot",
+    "method": "read_ore_markers",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "3e0b5abb8c9ae62de390b8957f45f81c601148a7c304d8ca6e5fdf1bcfc1ed04"
+  },
+  {
+    "role": "builder_bot",
+    "method": "infer_symmetric",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "cbf2fe6708397c6dda4217fda3ff964b85566443892ad08f762df064e6a1e980"
+  },
+  {
+    "role": "builder_bot",
+    "method": "update_scout_frontier",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "c0aa79f996f8d48a92c3dabfc036122b8c88beec11cfe94935868105e64d8965"
+  },
+  {
+    "role": "builder_bot",
+    "method": "rebuild_scout_frontier",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "ffe4912bad7b3ba2f459c95ca5b8fdc0f64e890ef3db9af579399e014e6dfa06"
+  },
+  {
+    "role": "builder_bot",
+    "method": "find_home_core",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "5411efef1cb661aa8551cccf7a08dcf97030b2b4f0f813f1a6b81fdfc0695d7e"
+  },
+  {
+    "role": "builder_bot",
+    "method": "known_titanium_ores",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "22ebf481698b4e3b5a6eb95bb38642776d11b8ce522264636a9b9377f7424a43"
+  },
+  {
+    "role": "builder_bot",
+    "method": "known_axionite_ores",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "b96a56d6f85c5a01d357b60f1357c943faf71b140d17772cce869392cd4327e1"
+  },
+  {
+    "role": "builder_bot",
+    "method": "resource_at",
+    "target": "finalbot/economy/builder/observation.py",
+    "ast_sha256": "2d0fe6c15ca648b116e9a91a8d6db80936b12914c64678717396bd5c9e9d05a5"
+  },
+  {
+    "role": "builder_bot",
+    "method": "maybe_select_new_target",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "5873d5bd8363f901ba872ab2115d0b412b33d0f21e949e263ce178543636f577"
+  },
+  {
+    "role": "builder_bot",
+    "method": "is_ore_eligible",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "7a0ceb5dfdd18ff06a64e28f3805dce337c6c20ca78d060622eee1151d6cef98"
+  },
+  {
+    "role": "builder_bot",
+    "method": "mineable_ores",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "95a5e74499bd84978957274f27f2f050b7e0eea2106ad335a4ca76a70089bc35"
+  },
+  {
+    "role": "builder_bot",
+    "method": "observed_ores",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "5d5de5902c5a118e06640b7c21a7037b54183ff3360e8c7d3de8dd3f5ae30ecc"
+  },
+  {
+    "role": "builder_bot",
+    "method": "is_harvester_on_tile",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "8b9ccf8b3b6961511c65db71a53acbbb8ff04c5a8475afd9b6f77f15e2ad5f65"
+  },
+  {
+    "role": "builder_bot",
+    "method": "try_build_nearby_harvester",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "baf7c6e68011d8fc1ee2fe7ab85a9cf1e31c1b2591f90ace5c45d960e6e94f78"
+  },
+  {
+    "role": "builder_bot",
+    "method": "record_harvester_built",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "4d89cc345fe5e4360f0e2a315f47099b031850aa2808032e73b739cec2a5af04"
+  },
+  {
+    "role": "builder_bot",
+    "method": "try_build_harvester_guard",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "c81f8f098d52a6523b11355c68a2e28a14be8c86520acd01b3d10c88cf7c88ca"
+  },
+  {
+    "role": "builder_bot",
+    "method": "defer_ore_for_survey",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "525de3d5edf1c1595582028cc208b68075841f8fda0efd97bdac5873ae75e39d"
+  },
+  {
+    "role": "builder_bot",
+    "method": "defer_connection_for_survey",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "7a502bcc00a795ab6e7379f7b870c166465229080f6a44d6277245ad8a5e8387"
+  },
+  {
+    "role": "builder_bot",
+    "method": "connection_is_deferred",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "69fbf5c1c7ae9860e92f036096755d08bf0ba78616850ba564e97613130d3f7f"
+  },
+  {
+    "role": "builder_bot",
+    "method": "ore_is_deferred",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "1daa4f06ec8dd072bcf5ee93d88b360d1890ba76c2f593f59514ade54a221932"
+  },
+  {
+    "role": "builder_bot",
+    "method": "clear_ore_target",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "3d1b6a55f03d8c6f95ae3a932f124467609417e4cdb48d5d032f49c4409b4c03"
+  },
+  {
+    "role": "builder_bot",
+    "method": "assign_ore_target",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "f550d47b5f3f72228989bbbe30d243b8aa88e51d1afd9a58f43d59f1406a38d4"
+  },
+  {
+    "role": "builder_bot",
+    "method": "start_ore_connection",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "632941161857a1dbf75ecf1d0b555ddb7d94c7eca3a16d589b1df11f4a8d6943"
+  },
+  {
+    "role": "builder_bot",
+    "method": "replan_active_ore_target",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "8d3c11363ffbd73889469944411ff0fe0806f82a678ac1b0f4956e0941b0e52b"
+  },
+  {
+    "role": "builder_bot",
+    "method": "release_connected_ore_target",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "5e207ea3a61fe9b5a46bd18f29ae46ef9abb758bce49bb100bf4b96fe51ddd64"
+  },
+  {
+    "role": "builder_bot",
+    "method": "connection_candidates",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "f64d9d6c5d307d1132474ac5ec0f08134bc9ec346564414893dc839ec4f7d9d8"
+  },
+  {
+    "role": "builder_bot",
+    "method": "select_new_target",
+    "target": "finalbot/economy/builder/jobs.py",
+    "ast_sha256": "fb3c65ca75d03506ef5f754b2128c65adf917bc388b9d05bd51ecc2dbcf83e61"
+  },
+  {
+    "role": "builder_bot",
+    "method": "ore_network_needs_work",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "11c5a8f0da5aaa4cddd14d2dd5972d4fea338041688213d7222629da28c6696a"
+  },
+  {
+    "role": "builder_bot",
+    "method": "ore_needs_capacity_relief",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "276198e995cc1273af82a869c1ad1bf1dc86788dd5f9249087f85c578b1ef93a"
+  },
+  {
+    "role": "builder_bot",
+    "method": "ore_action_approaches",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "9408f794ea6a30d00cbc03d89ae98423126446c80b3cca7ccda43518d8905308"
+  },
+  {
+    "role": "builder_bot",
+    "method": "core_receiver_tiles",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "85cc0f9dd558237c7bd304c86282ba0de0e3ff85e92fb81a551eef080eef3e19"
+  },
+  {
+    "role": "builder_bot",
+    "method": "sector_core_receiver_tiles",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "5f48e2e0362b9c7f3f25a4c6dcfb29224c483efebfe5a15711aade02365183ab"
+  },
+  {
+    "role": "builder_bot",
+    "method": "sector_core_entry_tiles",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "b8c3f33763c2ed8dfa158fa6c1be1e0d80c8fe4aee86602477e2f97fd7cc8176"
+  },
+  {
+    "role": "builder_bot",
+    "method": "core_entry_tiles",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "778ae531f8b4b4370f681b645876422de92aa62918e3b82b2ecc7feebcad408e"
+  },
+  {
+    "role": "builder_bot",
+    "method": "network_plan_receiver_accepts",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "402fb6141c90e24a564e534eabf103b003a36a4f342ff005b126326c894f2bc3"
+  },
+  {
+    "role": "builder_bot",
+    "method": "is_core_receiver_tile",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "d83571792c9d4dcd6cd855d08169dcf34e2cc1ad485e1ced21415393d4b5f309"
+  },
+  {
+    "role": "builder_bot",
+    "method": "known_connected_network",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "f476144d7e59111fe7f4927b862906f1b18be5b0743a7d70b95d767d83d0ef72"
+  },
+  {
+    "role": "builder_bot",
+    "method": "network_receiver_accepts",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "0cebd247a7c780f8681e173f4e224b3e60b4257abbb8bdd40684d684b0f4289d"
+  },
+  {
+    "role": "builder_bot",
+    "method": "transport_receiver",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "39ea0a9e618c9d059078b20c1df540852e81c95c57075c544788881b1fff37b5"
+  },
+  {
+    "role": "builder_bot",
+    "method": "known_network_loads",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "1ce8733e4b89dfe45d0bea941f4cf40c6722ebe5906a1f32a379ae10358597f6"
+  },
+  {
+    "role": "builder_bot",
+    "method": "transport_lane_is_saturated",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "7ca2fb807474d46afebac465062939fcb384884cc2978412820a493f16f8ef36"
+  },
+  {
+    "role": "builder_bot",
+    "method": "harvester_is_connected",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "50232f992ab489f3231c25839fec9242084a0ccbf5d33d0913b4993015a52f79"
+  },
+  {
+    "role": "builder_bot",
+    "method": "traversable_for_connection",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "b7ab9a0a9d79aea726cfb557fdcd7baea3408ff4541ec5785efbffeb825688b4"
+  },
+  {
+    "role": "builder_bot",
+    "method": "is_incompatible_existing_conveyor",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "f8668a5203490a072cf75bd606f4f40603bb17b4fcdeb09e00780bfede72c4f4"
+  },
+  {
+    "role": "builder_bot",
+    "method": "buildable_approaches",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "66e0b0964d82db3bf22a5899b9607e34e7cc91ab82f55732c73d526280522d97"
+  },
+  {
+    "role": "builder_bot",
+    "method": "get_conveyor_direction",
+    "target": "finalbot/economy/builder/network.py",
+    "ast_sha256": "ba5932b0efd83582f3c9452547a71a7ca8c641bf43fb0b3c20d19efb5331b114"
+  },
+  {
+    "role": "builder_bot",
+    "method": "connection_plan",
+    "target": "finalbot/economy/builder/routing.py",
+    "ast_sha256": "f5237456737fc97680e0f5e2bb8d719e1598100304745235c5767ccfc915b08b"
+  },
+  {
+    "role": "builder_bot",
+    "method": "flow_augmentation_plan",
+    "target": "finalbot/economy/builder/routing.py",
+    "ast_sha256": "fe98cb0da94d09e7f74ca0ec995fe0a6fb0146a510ba8386178d9ae680627cab"
+  },
+  {
+    "role": "builder_bot",
+    "method": "plan_raises_transport_flow",
+    "target": "finalbot/economy/builder/routing.py",
+    "ast_sha256": "1c3085c6ce12126f9f6a024e0e27fac4fb8b3eb033bbc0875caeaecc14e06e1b"
+  },
+  {
+    "role": "builder_bot",
+    "method": "transport_flow_augmentation",
+    "target": "finalbot/economy/builder/routing.py",
+    "ast_sha256": "15a05166f1ac34662558f1fc3a3563648c1ddeb3f9d5762a0d1a35487813e87e"
+  },
+  {
+    "role": "builder_bot",
+    "method": "connection_walk",
+    "target": "finalbot/economy/builder/routing.py",
+    "ast_sha256": "7e0bbba5a45519fd883a43903a1af8cedf8dbf97e0b031cd797b0f47b3080617"
+  },
+  {
+    "role": "builder_bot",
+    "method": "assign_connection_target",
+    "target": "finalbot/economy/builder/routing.py",
+    "ast_sha256": "657357c65dca87d5801b4cd2403e309b52ec5054f0372c984c0ddb5626bbf880"
+  },
+  {
+    "role": "builder_bot",
+    "method": "try_repair_nearby_network",
+    "target": "finalbot/economy/builder/construction.py",
+    "ast_sha256": "f4508110cba5d3b207b78d2183d5c18313d91ac4e3d539cd123db6fe50b8d2f3"
+  },
+  {
+    "role": "builder_bot",
+    "method": "cleanup_abandoned_network",
+    "target": "finalbot/economy/builder/construction.py",
+    "ast_sha256": "6ba3a55e70765726959904fab066b644c1d7885ec0d3526c826c282aac7f73c8"
+  },
+  {
+    "role": "builder_bot",
+    "method": "follow_path_and_build",
+    "target": "finalbot/economy/builder/construction.py",
+    "ast_sha256": "47eea5a67e55914ea0a546bcb21b7011f55106829ecd8a9ce1ada6b2c1be0163"
+  },
+  {
+    "role": "builder_bot",
+    "method": "bridge_build_is_deferred",
+    "target": "finalbot/economy/builder/construction.py",
+    "ast_sha256": "fd0bbcaa2476449f232dbd3b0dae0205f3636cee3860b666099c16d9b2f7eded"
+  },
+  {
+    "role": "builder_bot",
+    "method": "ensure_tree_conveyor",
+    "target": "finalbot/economy/builder/construction.py",
+    "ast_sha256": "cc34e52d5c0da71bc12b4fbfb3bae405a3c4ba70a372d93100bacb831b54373d"
+  },
+  {
+    "role": "builder_bot",
+    "method": "has_expected_tree_conveyor",
+    "target": "finalbot/economy/builder/construction.py",
+    "ast_sha256": "a36e7b319149ee1709930ee7aa709797a4eaf499cfb5859acfd2fa2cf0e6def0"
+  },
+  {
+    "role": "builder_bot",
+    "method": "replan_or_wait_for_connection_tile",
+    "target": "finalbot/economy/builder/construction.py",
+    "ast_sha256": "a689de4d0bf2282a11f03b536985ca288123fc110592cb6b5d57445268a731bc"
+  },
+  {
+    "role": "builder_bot",
+    "method": "is_enemy_road",
+    "target": "finalbot/economy/builder/construction.py",
+    "ast_sha256": "a0eccfafc44cc2ca9229ade547490a9bd1eb2d227fc9a93512acce1ec305c300"
+  },
+  {
+    "role": "builder_bot",
+    "method": "work_direction_progress",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "4756520f9f19b92966102bb32bb12c7e1e54aff6045c03b2e1306fbc194e508e"
+  },
+  {
+    "role": "builder_bot",
+    "method": "invasion_scouting_active",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "0da48bc6c22192c0b378fc1d8babfd653d865676f98def05a49bcaec6aa9eef2"
+  },
+  {
+    "role": "builder_bot",
+    "method": "scout_directional_progress",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "0006f2bf644f234a4fda6676ce1f613c732a8a68536186f1ac5b713981375670"
+  },
+  {
+    "role": "builder_bot",
+    "method": "work_direction_priority",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "61a66992cbbadb2e07a8fb370afebcfa87bc781356840ae871dce0b917d0cd0d"
+  },
+  {
+    "role": "builder_bot",
+    "method": "core_distance",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "0b9a4bfdefe7f0db8024b492091bbd6063bc4e90fd454c90308d0e8079fcb65a"
+  },
+  {
+    "role": "builder_bot",
+    "method": "work_direction_lateral_offset",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "afc0b90940223bf162edb24c38f1e237dc96db6ad04e557d77120c544478bb41"
+  },
+  {
+    "role": "builder_bot",
+    "method": "remember_route_position",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "ffc16e41ae58a6adfc72e093834a19d002382e3783d10183bb0bf59351b8c44a"
+  },
+  {
+    "role": "builder_bot",
+    "method": "scout_path_step_cost",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "dec8770defd0c80e8cfadf61665fc5bcd7b85902d3518ae7d1a1c23ea54474eb"
+  },
+  {
+    "role": "builder_bot",
+    "method": "newly_visible_tiles",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "6bfea52a68abd0bac14f622199c462e7a5819411bcb5accd284b6a40d2447263"
+  },
+  {
+    "role": "builder_bot",
+    "method": "ore_hint_progress",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "d8f870af5d5a6b24fb87aa87464147ee41cf9301fa31eba87a604dbd4359bc12"
+  },
+  {
+    "role": "builder_bot",
+    "method": "scout_frontier_pre_score",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "4057b8e10a2f7b47f1abf1920cdbd6bfd866a557c1456b8748baa6a2ad8c1120"
+  },
+  {
+    "role": "builder_bot",
+    "method": "scout_frontier_score",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "45827469eda63aadcbbe76042486f553ee12e50529916d2b0d08db0475a7ce94"
+  },
+  {
+    "role": "builder_bot",
+    "method": "scout_frontier_has_known_entry",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "b079c87b2af810c45760ab9bb72773b4ec3b0d968bd30ba862b07b8d525ea6da"
+  },
+  {
+    "role": "builder_bot",
+    "method": "choose_network_patrol_plan",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "7d0c1e658844bae1a69dad4f97b13c461218d2460b4a2b54e984b318f1441693"
+  },
+  {
+    "role": "builder_bot",
+    "method": "choose_network_repair_plan",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "387864e89b72c3fd8c470ad11d8f5815826567892ec0b06da85a39914749d711"
+  },
+  {
+    "role": "builder_bot",
+    "method": "choose_abandoned_cleanup_plan",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "4d56559290c6c404a6fcabcb37f1bb4e4cd0a33b994172050828e3b49cc7e8e2"
+  },
+  {
+    "role": "builder_bot",
+    "method": "snake_sweep_bias",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "afdeca1f44688e3ac659c0fcd9f314d51c639d8549a638246bfb771ddadffc0b"
+  },
+  {
+    "role": "builder_bot",
+    "method": "scout_step_is_viable",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "a5208d281aeb1f76798f5eed769ce363f72e5313f396843e9b5490d4e15f7f12"
+  },
+  {
+    "role": "builder_bot",
+    "method": "scout_a_star_traversable",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "bbf70f56290dfa01f38f550a757aa69131feec1ff6d99d079c4bea296e6054be"
+  },
+  {
+    "role": "builder_bot",
+    "method": "choose_right_hand_scout_step",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "97de09300dac8977941aa7787f737a77eb64a3f1fb8ecfcc8ec20411c19f7645"
+  },
+  {
+    "role": "builder_bot",
+    "method": "choose_scout_plan",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "66fcc7937363acb994e40dac0afde588c032fd7ffdfb66b9200eba036127bf5d"
+  },
+  {
+    "role": "builder_bot",
+    "method": "cancel_scout_route",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "18f107504e0d7867fc0201df2b92ab05945176a5d90d05d292fbcf8ab9ac07e3"
+  },
+  {
+    "role": "builder_bot",
+    "method": "reject_scout_target",
+    "target": "finalbot/economy/builder/scouting.py",
+    "ast_sha256": "4eedb2df2dbcc41aeb459691145a08596958d3bdda0dfe81de12b130d596fb09"
+  },
+  {
+    "role": "builder_bot",
+    "method": "ore_walk",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "f2467ade07256842c3b2fb07418d21c41a0abf93e16bc02607fa90c75601429e"
+  },
+  {
+    "role": "builder_bot",
+    "method": "traversable_for_planning",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "8feaed90f744e49266877b46b61309e9d0ea6325abb765fc0a461f86f937a07f"
+  },
+  {
+    "role": "builder_bot",
+    "method": "traversable_for_ore_path",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "681c0a2a449a3a4b7c3e067bb3ea4b1654751d050c2e54a7d8c11a0edc3fb5ba"
+  },
+  {
+    "role": "builder_bot",
+    "method": "follow_direct_scout_target",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "3c6ba9f42fc9ca5ed6016214e93918188ecdbcbc802e0c9b3649a515edf53ab7"
+  },
+  {
+    "role": "builder_bot",
+    "method": "try_move_scout_step",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "99b7ed1b05c53e1d2bce32b97d220b61bf72a269afc7f80b4c20336d5d30021f"
+  },
+  {
+    "role": "builder_bot",
+    "method": "try_prepare_tile",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "66ce50ef239f161dbb3fe43be441b4b4f566af0cac21ebc70ffd291c8d07ef59"
+  },
+  {
+    "role": "builder_bot",
+    "method": "replan_after_blocked_step",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "4177a619246a38611c3c70a782e05dee74318df6a1423e878793e55cc7d2b5d6"
+  },
+  {
+    "role": "builder_bot",
+    "method": "yield_to_higher_priority_builder",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "9be0d430ab5e344186f696ae1b1e0d885764f200f5a66e6cbcb1edfa77ffb54f"
+  },
+  {
+    "role": "builder_bot",
+    "method": "schedule_replan_after_yield",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "41db62d2b11d8d76c172e73c8910f34a331a4bcfcfd67250557b4b8b3f4fc439"
+  },
+  {
+    "role": "builder_bot",
+    "method": "active_yield_blocked_tiles",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "a4a41c569c3259247a0a2d10e9fd59c9ac1c85adce6e511b099f3a8cfda9e6ea"
+  },
+  {
+    "role": "builder_bot",
+    "method": "is_yield_blocked",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "56f3fd657af50785edbea86276f2d09f2f99ea8d4aa6f95c228c6d4a711a1f1b"
+  },
+  {
+    "role": "builder_bot",
+    "method": "mark_staticly_blocked",
+    "target": "finalbot/economy/builder/movement.py",
+    "ast_sha256": "0896fbefa802c1f6bfaf8939e4cb72c515b16e87da6e647a69a0c1cabd3f9ba3"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "__init__",
+    "target": "finalbot/combat/intruder/bot.py",
+    "ast_sha256": "7e5ba660295cc1d082cf2823ff39e06196f9f946711fed299d8dbc1add915795"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "claims_spawn",
+    "target": "finalbot/combat/intruder/bot.py",
+    "ast_sha256": "2dca1465a2fa07cef8bc7d559db4d34af22dfb130a7bd02ce647207a8345158c"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "run",
+    "target": "finalbot/combat/intruder/bot.py",
+    "ast_sha256": "90b69c7117b9a68230daec27c9128d90f9b38e51e62976fdb6dc97bd90a496e0"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "infiltrate",
+    "target": "finalbot/combat/intruder/bot.py",
+    "ast_sha256": "49e9e3e57ff4e1717e2908996df30420b47e0bfe653fa716932f304846dca517"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "draw_goal_indicator",
+    "target": "finalbot/combat/intruder/bot.py",
+    "ast_sha256": "d24be8edf39962b9160c8245127d8c6bd6ca826190ac6f8cadc23dba5166da96"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "remember_position",
+    "target": "finalbot/combat/intruder/bot.py",
+    "ast_sha256": "9bedb76745e24474efb18142ebd54c75e72a4c636d40b857e733a9ba0af916be"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "draw_visited_tile_indicators",
+    "target": "finalbot/combat/intruder/bot.py",
+    "ast_sha256": "c3e81cc40dc8d92b89ab17c5be26765c7ecaaaf239bd95c33baf86c1728bb549"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "find_friendly_core",
+    "target": "finalbot/combat/intruder/observation.py",
+    "ast_sha256": "b7b9f98dea3d528f7659efbd02652aad87d4b2e735275d06b8ef53c8d92c8433"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "update_enemy_knowledge",
+    "target": "finalbot/combat/intruder/observation.py",
+    "ast_sha256": "e4b88c1cfed2dac1f80b6d9367d6c87f96a030a3dd7fc996fc9ce5e7d4e8cd48"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "set_confirmed_enemy_destination",
+    "target": "finalbot/combat/intruder/observation.py",
+    "ast_sha256": "52a707c4e2d87e57ed1a33ff841ceedf790de771ba1ead3061666e814f91193c"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "refresh_enemy_launchers",
+    "target": "finalbot/combat/intruder/observation.py",
+    "ast_sha256": "113d2a99a78f25eff9f2afc8fe027073ea0150eaff31da43249e818115fcf589"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "in_launcher_zone",
+    "target": "finalbot/combat/intruder/observation.py",
+    "ast_sha256": "a121d78f4c6764f6cbb1c09b776b16442861da9f5f2d0bddda2af36d44fa4e92"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "has_unvisited_exploration_exit",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "264b1decf3480bf3db1a0aedf2bacc0d1d4787e90f45a387fa529a0b434bce05"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "has_unvisited_exploration_wall_exit",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "695b0ebcea3f4ff36599b08f4b59330f12dd42c88f35b134d61054f81aae28bb"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "advance_towards_unvisited_target",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "34166cf903fc9d0599feb1e384d3d841f79278fce1512da13290be47a9b1230a"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "finish_unvisited_movement",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "f813805e11e6aa63c536a9e796b4c923dc29f0617c2ab19d19b5be46a41a328b"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "begin_return_to_core",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "69f68ade798146cf659063b27a00ea80d88280c8038d3013bf5bdf906ea7ef7f"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "begin_return_from_exploration_dead_end",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "4fc17a9cfdb5033b7bf09c299b73e3363578d6394a1d7d7ddca52f802e0dd701"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "return_to_exploration_branch",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "eaf20455e410e24a4aec2cb67ee60fc6112ab0a0d7f1a62c0830f945a176cee8"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "resume_exploration_branch",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "0d2f4416189aa39adc83238ddeaee2c7cb1f2b9347e161ad91547e263a11ee5e"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "return_path_traversable",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "12df8d45ded8f2a2ee058b92c982d379f249726933e94dcc763420a7ca387b23"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "return_to_core",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "12f92b95c6e578c13b57a1eec2bd13b6eba68f3941daa6602773098a6d297561"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "clear_exploration_branch_state",
+    "target": "finalbot/combat/intruder/exploration.py",
+    "ast_sha256": "2091c8ca82bba06b808494c9580b8baff6e4a92d0a818d4d204e2b70cb361aca"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "advance_towards_revisitable_target",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "ec2f7c8603945d5d0f2f0548a77f24068f2e6fadd0092caf00d077c856f261e3"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "move_towards",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "182b2018e3d6d579b1051f410df24658748a9ba54a0ef97ac4b8dfd63d8549fd"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "forward_sector_directions",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "a1fc3417e9047e49ec30b469ca174f7be6102b6a04c15bab452affdea2df4f3a"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "remaining_exploration_directions",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "59622a674d50adaa9a1cc961cae44c9764d6af08a7b90ef78a890f6b45128b68"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "start_exploration_wall_following",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "8391652cbba4dc3e7593115f5ac53efda9d991e48435cfd1930a5d8fdd9eed7a"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "continue_exploration_wall_following",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "b5d40829df6a1acfd76a6a8724d56f39bc03248b8e06f69a1e192f7fe8fe28ca"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "stop_exploration_wall_following",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "3d2018f82fdf5bf3cfaeb91a2ea87f7e98e5165e34dd43513323d87a89ea65ce"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "left_wall_directions",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "f3cc35f6cf231e02575fac1ad1513b0c7ccf2b38c3049e3d8ffc820ad0a2c921"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "right_wall_directions",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "c7082bea9cb4819e233a91b6116e29f646038fd38c3c94b4666a60ed42a7486b"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "right_hand_directions",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "8aa468024e3316eb969456202e356060832ed9ee39c1504f549a7d11625bca6a"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "try_move_step",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "17b1ab963f337bbebc9e14446df7f2719b5636821be7a69f512dc167e6e3d948"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "construction_approach",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "73a81edbbe604dc81bf734fb8266913439ef3b0766d6e4a15c51528a59b0b722"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "is_roadable_position",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "4b5456d0cc3e4bb5d9a0f38465b5dcf3c2158de45e1937e600b0cab9ada6d4bd"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "unvisited_path_traversable",
+    "target": "finalbot/combat/intruder/movement.py",
+    "ast_sha256": "c2bcab8d72a14f7f4dd5ef35bf594b177882c7e0e49ebed027fe747453b0c946"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "wait_for_launcher",
+    "target": "finalbot/combat/intruder/launching.py",
+    "ast_sha256": "36788a036774001e3540955f6913cc88f65a5d71b5dd0ef6f171d807ab3d922e"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "start_launcher_crossing",
+    "target": "finalbot/combat/intruder/launching.py",
+    "ast_sha256": "fe258909e485f6a4b7a92b65dcee94a3b611087e8a8efd7fa05e1b00d5363ea3"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "find_launcher_landing",
+    "target": "finalbot/combat/intruder/launching.py",
+    "ast_sha256": "148c3171a8a2032cf9b9f2c3023de0f630a66590a199f1b437c214093482bb4d"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "launcher_build_sites",
+    "target": "finalbot/combat/intruder/launching.py",
+    "ast_sha256": "bdffb9636ea75adc21fe869c842b01fd8792828675acff0335d87612bcb962a6"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "find_launch_marker_site",
+    "target": "finalbot/combat/intruder/launching.py",
+    "ast_sha256": "bb20f022d16b35e81d144e6d118ba09d0edec5800ca846f2c15fad01f25fa0fa"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "build_forward_gunner",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "8cdb8c886e1c5d606177180b6d7ec58ed3618f445a7a104cd813c8ed3e88621b"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "vacate_gunner_site",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "daf5bd3554cc2c755b45a8a68eaf41e21d9d96be0004b41973ed5625ec70c809"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "choose_gunner_site",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "7c671bc613c174dff9e0adc357c3824361b1d685f2a82629620e3dc3649f2090"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "start_gunner_site_search",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "06876fbc62c3bf3d3d7a6b4c762a0b359744cdbcfe79993dd50d6b5505f9d103"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "gunner_site_search_pending",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "29753bbf5697377ae5ffca756186edbea194a394925cd48e85d093bf3cca7609"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "clear_gunner_site_search",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "33450cfd725dcbc465f84ef0bb670f657aeab0c35ff4eaba89650f1152b3fda8"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "ordered_gunner_targets",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "ef1c3cb7fe162c463c8ceda570e65e15575004ce6e137216fb43a61bdea3f81f"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "gunner_target_groups",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "ac398cbec868a4e640d746962bd25e8a421e0918f32ef33028676d22d2aff1d2"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "distance_squared_to_core_segment",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "9689d1b163ff4b70becede0c6ff3931ad62ee8dd67020f0daff3dc99f967ad86"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "gunner_facing_directions",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "0b3550d5d9103f505be055428600aedd29b2e7bc641266f683b47b1168df61cb"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "is_gunner_site_locally_viable",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "8eafb9f818b7ec07e188f20e60f1d030f86f75b30a206b45c8d5e5529a5a79ec"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "enemy_core_edge_tiles",
+    "target": "finalbot/combat/intruder/targeting.py",
+    "ast_sha256": "9277e4b97182e8df3c120bcbe40b44de163bfa52a4b44c26c82c32f260ed828a"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "is_protected_transport",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "d4a7e403e4fd850b73ca4c613436bf52c38f632f60034ee8b7d8442cd40cceeb"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "is_available_supply_ore",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "fd50711e317504a31c2c0a7ebb58414406d77601608f112eeb4a9eb07c19d39b"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "select_supply_plan",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "d63d2d81ccc77e90480f146eea98e330dee6e67501a9978ad1146ab29da44a1d"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "reconsider_supply_plan",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "c2d2d9f57d767f1d41a9145cd4c3f798216cc4def1fdb0efeecd312174e0f296"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "store_supply_plan",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "ed685328cdf17d6e43c1b2dd14c0e22f0e884f849ac28873b1c810ccd749441f"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "explore_supply_route",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "0e5d91789f7f567333c828cc362a901391dfca156fc49accba644c3c05398615"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "supply_route_frontier",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "ed9213d86c4bd33207d3d189f06023a3a8190ded05b2639b51b0dd501c02a99c"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "supply_exploration_target",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "8199e9591af30e57ac3335bfb08178b6cc8f4cbeeb692a3c67f56ba5aac3dba3"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "plan_supply_route",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "576f8b7aa46f8d83f545e2ebe3b2448a0b407355a21d2d963894403e6f974808"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "is_supply_tile",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "c1421069dca8cf99c1edc81b86d6d9e23502e0e35809b0721ce2f128a231225c"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "is_supply_bridge_landing",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "9e07dc4df8f65a288b00a9dd4f4d259f856f3cc24af9c8fe7c1b1f56abdf7058"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "known_supply_bridge_crossings",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "4ab908332912d9ede3a14187c09064bd4039419f418b7e8a3ecabd2ec7d1b272"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "refresh_known_bridge_targets",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "0ae1ac6ce72a51d68b5d5a543ec16d1edbc95452684a85043c137ac2a55be7b6"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "reset_supply_plan",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "68ae84dea21ce76221cd7e88fcd606fae657c92617cfabfd36fbd57e43d908fb"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "search_for_titanium",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "fca641d2f07d236c99428e62a424bc2bfc90571ad91de9e0069d883030852061"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "supply_search_frontier",
+    "target": "finalbot/combat/intruder/supply_planning.py",
+    "ast_sha256": "8e276643ea2f896c5225f4d78b2cf7fa44194fb7af9f27aba1d9bd8f1cced55a"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "clear_walkable_tile",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "1a9531275ae0e167b69d420bf47e9e5ab230cc43d6ab628d1a69b3072728a416"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "clear_cheap_enemy_building",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "a1ed0c85bcb6b392c2fd166b62fa9afe25ffe4bc0162ccb4d5878fa466ee8dd4"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "supply_gunner",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "c5c454bbc11093a59ac4e41835065c1182071d9cbee27002c80d20fea33b1539"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "ensure_supply_harvester",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "53d88ec1da52d308071feecb7e79678dc163004d8f885de2b55e93814d4996c0"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "follow_supply_path",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "9e3d0d63922888dbead0d2c89d7a47a21e4a0dc6f56536b3cdeaf12a60f26a59"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "advance_supply_index",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "0f66f80d64a001b2150a9f453b208809171a4173fb14e22d869c7a6b97827226"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "rejoin_supply_path",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "2a5a15a63c0db6c50fb408289a01dc4ca510a0db1663de87b33404d23a22dfcf"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "finish_pending_supply_bridge",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "8922b8434a2420df441cc4dbb1124a7ae59c7a25536273b3a7ca8bcc03eab5b7"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "move_to_supply_route_tile",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "8a6e9bd13b3e18db7c8179cfd3c06efe9d4c4d479fa977d1c3ceb90b1248a022"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "supply_tile_complete",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "849e5f3ff548bc35d823f865fc9b34ab60ebe8a80733330f4479889a273ab012"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "step_off_supply_bridge",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "74c3d19bc0a963798c85f96b733f1e10049378e3e3a76df00e096ab4e0c51a8c"
+  },
+  {
+    "role": "intruder_bot",
+    "method": "build_supply_tile",
+    "target": "finalbot/combat/intruder/supply_construction.py",
+    "ast_sha256": "faafe9a381c7dc1210eeaaa6803ea354192a2e21d2ce7132eb32a5b3af43c88f"
+  }
+]

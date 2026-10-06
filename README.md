@@ -10,11 +10,8 @@ pip install -r requirements.txt
 ```
 Run
 ```
-cambc run final rc --watch
+cambc run final rc maps\arena.map26 --watch
 ```
-
-`final` combines Nexus exploration and economy with RC combat.
-See [the bot notes](bots/final/README.md) for behavior and checks.
 
 ## Game rules
 
