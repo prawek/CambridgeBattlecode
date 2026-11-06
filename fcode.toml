@@ -1,0 +1,4 @@
+bots_dir = "bots"
+maps_dir = "maps/florent"
+replay = "florent.replay26"
+seed = 1

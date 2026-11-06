@@ -9,6 +9,7 @@ def runtime_files(source):
     package = source / 'finalbot'
     if package.is_dir():
         files.extend(package.rglob('*.py'))
+        files.extend((source / 'florent').rglob('*.py'))
     else:
         # Older snapshots remain usable for before/after comparisons.
         files.extend(path for path in source.glob('*.py') if path.name != 'main.py')

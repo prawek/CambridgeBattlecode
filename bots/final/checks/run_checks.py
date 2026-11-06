@@ -13,6 +13,7 @@ def main():
         [str(Path(__file__).with_name('legacy_tests.py')),
          'tests.nexus.test_cache_and_planning', 'tests.nexus.test_planning_slices', '-v'],
         [str(Path(__file__).with_name('legacy_tests.py')), 'tests.final.test_integration', '-v'],
+        ['-m', 'unittest', 'tests.final.test_florent', '-v'],
         ['-m', 'unittest', 'discover', '-s', 'bots/final/checks', '-v'],
     ):
         subprocess.run([sys.executable, *arguments], cwd=root,

@@ -16,7 +16,7 @@ def package(destination):
     modules = runtime_files(source)
     local_modules = {'.'.join(path.relative_to(source).with_suffix('').parts)
                      .removesuffix('.__init__') for path in modules}
-    external = sys.stdlib_module_names | {'cambc'}
+    external = sys.stdlib_module_names | {'cambc', 'fcode'}
     for path in modules:
         for node in ast.walk(ast.parse(path.read_text(encoding='utf8'))):
             if isinstance(node, ast.Import):

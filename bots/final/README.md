@@ -1,5 +1,22 @@
 # final
 
+## Florent Code League
+
+Версия для Florent находится в [florent/main.py](florent/main.py). Ядро раздаёт рабочим секторные задания через командное хранилище и расширяет отряды по мере роста доходов. Рабочие рассчитывают поток до ядра, прокладывают новые ветки при нехватке пропускной способности и восстанавливают разрывы. У действующих харвестеров они закрывают свободные порты и ставят Gunner или Spike при угрозе.
+
+Ядро превращает доставленный Voltium в общие боеприпасы. Диверсанты ищут огневые позиции для Gunner и Sentinel, атакуют вражеское снабжение и используют Launcher для обхода препятствий и переправы через узкие разломы.
+
+```powershell
+pip install -r requirements.txt
+fcode login
+fcode maps sync
+fcode run final final aland --watch
+```
+
+Карты лиги хранятся в `maps/florent`, повтор записывается в `florent.replay26`. Через браузер можно загрузить `final-florent.zip`. Для отправки исходника из терминала используйте `fcode submit bots/final/florent/main.py --name final`.
+
+## Cambridge Battlecode
+
 Точка входа движка — [main.py](main.py). Она передаёт управление
 [finalbot/player.py](finalbot/player.py), где сущность получает свою роль.
 Весь игровой код находится в `finalbot/`; другие боты для запуска не нужны.

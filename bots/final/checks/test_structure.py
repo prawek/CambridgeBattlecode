@@ -7,6 +7,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 import zipfile
 
 BOT = Path(__file__).resolve().parents[1]
@@ -17,6 +18,7 @@ from runtime_files import runtime_files
 from finalbot.player import Player
 from finalbot.economy.builder.bot import BuilderBot
 from finalbot.combat.intruder.bot import IntruderBot
+from florent.main import Player as FlorentPlayer
 
 
 class StructureTests(unittest.TestCase):
@@ -24,7 +26,23 @@ class StructureTests(unittest.TestCase):
         spec = importlib.util.spec_from_file_location('final_engine_entry_test', BOT / 'main.py')
         module = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(module)
-        self.assertIs(module.Player, Player)
+        controller = object()
+        bot = module.Player()
+        with patch.object(Player, 'run') as run:
+            bot.run(controller)
+            run.assert_called_once_with(controller)
+        self.assertIsInstance(bot.bot, Player)
+
+        class FlorentController:
+            def read_store(self, slot):
+                return 0
+
+        controller = FlorentController()
+        bot = module.Player()
+        with patch.object(FlorentPlayer, 'run') as run:
+            bot.run(controller)
+            run.assert_called_once_with(controller)
+        self.assertIsInstance(bot.bot, FlorentPlayer)
 
     def test_every_packaged_module_can_be_imported(self):
         for path in runtime_files(BOT):
@@ -44,6 +62,7 @@ class StructureTests(unittest.TestCase):
         self.assertIn('finalbot/player.py', names)
         self.assertIn('finalbot/economy/builder/routing.py', names)
         self.assertIn('finalbot/combat/intruder/supply_construction.py', names)
+        self.assertIn('florent/main.py', names)
         self.assertFalse(any(name.startswith('checks/') for name in names))
 
     def test_role_components_do_not_shadow_each_other_or_initialize_state(self):
